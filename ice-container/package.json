@@ -1,0 +1,23 @@
+{
+	"name": "ice-container",
+	"version": "0.3.1",
+	"description": "Ice Container",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"private": false,
+	"scripts": {
+		"build": "tsc"
+	},
+	"dependencies": {
+		"chroma-skin": "0.0.5",
+		"mongoose": "^5.11.11",
+		"sandstorm-trade": "0.0.5",
+		"seed-of-crystal": "0.0.1",
+		"seed-of-mirror": "0.0.17"
+	},
+	"devDependencies": {
+		"@types/node": "^13.7.7",
+		"ts-node": "^8.6.2",
+		"typescript": "^4.1.3"
+	}
+}

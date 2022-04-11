@@ -1,0 +1,27 @@
+{
+	"name": "waterfall-gate",
+	"version": "0.1.22",
+	"description": "Waterfall Gate",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"private": false,
+	"scripts": {
+		"build": "tsc",
+		"dev": "ts-node test.ts"
+	},
+	"dependencies": {
+		"chroma-skin": "0.0.1",
+		"express": "^4.17.1",
+		"path-to-regexp": "^6.1.0",
+		"sandstorm-trade": "^0.0.5",
+		"seed-of-particle": "0.0.1",
+		"seed-of-rain": "^0.0.13"
+	},
+	"devDependencies": {
+		"@types/express": "^4.17.7",
+		"@types/node": "^14.0.27",
+		"@types/path-to-regexp": "^1.7.0",
+		"ts-node": "^8.10.2",
+		"typescript": "^3.9.7"
+	}
+}
